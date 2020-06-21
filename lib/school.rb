@@ -18,7 +18,7 @@ def initialize(name)
 end
   
   def add_student(student, grade) # student name and grade 
-  
+    
   end
   
   def grade(grade)  # should take in an argument of a grade and return all of the students in that grade

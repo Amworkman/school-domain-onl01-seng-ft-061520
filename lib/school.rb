@@ -18,7 +18,7 @@ def initialize(name)
 end
   
   def add_student(student, grade) # student name and grade 
-    @roster[grade] ||= []
+    self.roster[grade] ||= []
     @roster[grade] << name
   end
   

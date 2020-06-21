@@ -33,7 +33,7 @@ end
     
     #You should be able to get a sorted list of all the students where the strings in the student array are sorted alphabetically
     
-    self.roster.each do |grade, students|
+    self.roster.collect do |grade, students|
       students.sort
   end
 end

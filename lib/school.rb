@@ -29,7 +29,7 @@ end
     self.roster[grade]
   end
   
-  def sorted_list
+  def sort
     
     #You should be able to get a sorted list of all the students where the strings in the student array are sorted alphabetically
     
